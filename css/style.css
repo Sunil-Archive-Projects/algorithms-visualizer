@@ -5,7 +5,7 @@
 }
 
 @keyframes example{
-    from {background-color:white;}
+    from {background-color:black;}
     to {background-color: blue;}
 }
 
@@ -19,6 +19,7 @@ body{
     align-content: space-between;
     color:white;
     width: 30px;
+    text-align:center;
     animation-name: example;
     animation-duration:0.3s; 
 }
